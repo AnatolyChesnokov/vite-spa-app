@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 export * from "./components/avatar";
 export * from "./components/button";
 export * from "./components/card";

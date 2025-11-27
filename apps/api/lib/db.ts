@@ -8,8 +8,6 @@
  * - HYPERDRIVE_CACHED: Cached connection with 60-second cache for read-heavy operations
  * - HYPERDRIVE_DIRECT: Direct connection with no caching for real-time data operations
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { schema } from "@repo/db";

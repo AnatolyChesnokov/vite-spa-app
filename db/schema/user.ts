@@ -17,8 +17,6 @@
  * @see https://www.better-auth.com/docs/concepts/database - Better Auth database schema
  * @see https://www.better-auth.com/docs/adapters/drizzle - Drizzle adapter configuration
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { relations, sql } from "drizzle-orm";

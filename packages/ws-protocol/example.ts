@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import { createWSRouter } from "./router";
 import { NotificationSchema } from "./messages";
 import { createMessage } from "./schema";
@@ -100,7 +97,7 @@ ws.onopen = () => {
   if (ping.success) {
     ws.send(JSON.stringify(ping.data));
   }
-  
+
   // Send echo
   const echo = createMessage(EchoSchema, { text: "Hello server!" });
   if (echo.success) {

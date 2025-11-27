@@ -5,8 +5,6 @@
  * context initialization, including Hyperdrive database bindings and
  * authentication setup.
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { Hono } from "hono";

@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import { WebSocketRouter } from "bun-ws-router/zod";
 import { PingSchema, PongSchema, EchoSchema, ErrorSchema } from "./messages";
 import { createMessage } from "./schema";

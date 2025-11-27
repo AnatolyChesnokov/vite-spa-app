@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import react from "@eslint-react/eslint-plugin";
 import js from "@eslint/js";
 import * as tsParser from "@typescript-eslint/parser";

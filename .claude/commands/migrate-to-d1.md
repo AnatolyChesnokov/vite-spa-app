@@ -13,8 +13,6 @@ Migrate the project from Neon to Cloudflare D1 database following these steps:
  *
  * Environment detection based on npm lifecycle events or DB environment variable.
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { defineConfig } from "drizzle-kit";

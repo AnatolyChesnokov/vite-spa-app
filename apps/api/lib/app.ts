@@ -5,8 +5,6 @@
  * different deployment environments (local development, Cloudflare Workers, etc.).
  * The app expects database and auth to be initialized upstream via middleware.
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";

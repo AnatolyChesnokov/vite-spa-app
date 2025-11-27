@@ -4,8 +4,6 @@
  *
  * @see https://www.better-auth.com/docs/plugins/passkey - Better Auth passkey documentation
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { sql } from "drizzle-orm";

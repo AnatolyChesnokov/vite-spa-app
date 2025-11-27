@@ -4,8 +4,6 @@
  * This file serves as the public interface for the API package, exporting
  * utilities, routers, types, and the core application for library usage.
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 // Core utilities and services

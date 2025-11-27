@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import * as invitation from "./invitation";
 import * as organization from "./organization";
 import * as passkey from "./passkey";

@@ -2,8 +2,6 @@
  * Database schema for Better Auth teams plugin.
  * Defines team and teamMember tables for team-based organization.
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { relations, sql } from "drizzle-orm";

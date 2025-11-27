@@ -8,8 +8,6 @@
  *   bun --env ENVIRONMENT=staging scripts/seed.ts
  *   bun --env ENVIRONMENT=prod scripts/seed.ts
  *
- * SPDX-FileCopyrightText: 2014-present Kriasoft
- * SPDX-License-Identifier: MIT
  */
 
 import { drizzle } from "drizzle-orm/postgres-js";

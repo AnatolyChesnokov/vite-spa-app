@@ -1,11 +1,9 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import {
   anonymousClient,
   emailOTPClient,
   organizationClient,
   passkeyClient,
+  oidcClient,
 } from "better-auth/client/plugins";
 import { createAuthClient } from "better-auth/react";
 import { authConfig } from "./auth-config";
@@ -43,6 +41,7 @@ export const authClient = createAuthClient({
     emailOTPClient(),
     organizationClient(),
     passkeyClient(),
+    oidcClient(),
   ],
 });
 

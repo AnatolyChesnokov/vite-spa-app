@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import { Layout } from "@/components/layout";
 import { getCachedSession, sessionQueryOptions } from "@/lib/queries/session";
 import { createFileRoute, Outlet, redirect } from "@tanstack/react-router";

@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import { resolve } from "node:path";
 import { configDotenv } from "dotenv";
 import { defineConfig } from "drizzle-kit";
